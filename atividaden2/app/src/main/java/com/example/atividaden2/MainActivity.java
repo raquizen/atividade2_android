@@ -33,7 +33,7 @@ public class MainActivity extends AppCompatActivity {
         btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                String url = "https://restcountries.eu/rest/v2/lang/it";
+                String url = "https://restcountries.eu/rest/v2/lang/pt";
                 StringRequest request = new StringRequest(
                         Request.Method.GET,
                         url,
